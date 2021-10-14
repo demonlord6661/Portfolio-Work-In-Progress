@@ -6,3 +6,25 @@ p.solid {border-style: solid;
 height: 500px;
 padding: 30%;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: grid;
+  padding: 8px;
+  background-color: white;
+  font-size: 2rem;
+}
+.slice{
+    color: crimson;
+    text-align: right;
+    position: relative; ;
+}
