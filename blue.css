@@ -24,7 +24,16 @@ li a {
   font-size: 2rem;
 }
 .slice{
+    font-size: 100px;
     color: crimson;
-    text-align: right;
-    position: relative; ;
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: lightseagreen;
 }
