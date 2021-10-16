@@ -1,0 +1,64 @@
+p.solid {border-style: solid;
+height: 500px;
+padding: 30%;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ a {
+  float: left;
+}
+
+ a {
+  display: grid;
+  padding: 0;
+  background-color: white;
+  font-size: 20px;
+}
+.slice{
+    font-size: 100px;
+    color: crimson;
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+}
+
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: aquamarine;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: red;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: black;
+}
+
+.navbar a.active {
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
