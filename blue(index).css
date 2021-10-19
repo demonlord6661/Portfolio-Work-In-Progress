@@ -1,6 +1,6 @@
 p.solid {border-style: solid;
 height: 500px;
-padding: 30%;
+padding: 30%;/* this css will mainly work with the index.html file but will use overs */
 }
 .ul {
   list-style-type: none;
@@ -61,4 +61,29 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 100%;
     text-align: left;
   }
+}
+.cured {
+   color: crimson;
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+}
+
+.dropdown {/* these dropdown tags will work with most of the content on the pages being minimized to not cloud the screen */
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: turquoise;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
