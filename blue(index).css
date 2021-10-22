@@ -1,6 +1,7 @@
-p.solid {border-style: solid;
-height: 500px;
-padding: 30%;/* this css will mainly work with the index.html file but will use overs */
+p.solid {
+  border-style: solid;
+  height: 500px;
+  padding: 30%; /* this css will mainly work with the index.html file but will use overs */
 }
 .ul {
   list-style-type: none;
@@ -9,26 +10,30 @@ padding: 30%;/* this css will mainly work with the index.html file but will use 
   overflow: hidden;
 }
 
- a {
+a {
   float: left;
 }
 
- a {
+a {
   display: grid;
   padding: 0;
   background-color: white;
   font-size: 20px;
 }
-.slice{
-    font-size: 100px;
-    color: crimson;
-    display: inline-block;
-    height: 10px;
-    position: absolute;
+.slice {
+  font-size: 100px;
+  color: black;
+  display: inline-block;
+  height: 10px;
+  position: absolute;
 }
 
-* {box-sizing: border-box}
-body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .navbar {
   width: 100%;
@@ -39,7 +44,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .navbar a {
   float: left;
   padding: 12px;
-  color: red;
+  color: purple;
   text-decoration: none;
   font-size: 17px;
   width: 25%;
@@ -47,7 +52,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 .navbar a:hover {
-  background-color: black;
+  background-color: red;
 }
 
 .navbar a.active {
@@ -63,27 +68,49 @@ body {font-family: Arial, Helvetica, sans-serif;}
   }
 }
 .cured {
-   color: crimson;
-    display: inline-block;
-    height: 10px;
-    position: absolute;
-}
-
-.dropdown {/* these dropdown tags will work with most of the content on the pages being minimized to not cloud the screen */
-  position: relative;
+  color: purple;
   display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
+  height: 10px;
   position: absolute;
-  background-color: turquoise;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px black;
-  padding: 12px 16px;
-  z-index: 1;
+}
+.container {
+  position: relative;
+  width: 40%;
 }
 
-.dropdown:hover .dropdown-content {
+.image {
   display: block;
+  width: 33rem;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  width: 35rem;
+  height: 5rem;
+  background-color: lightskyblue;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: purple;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
