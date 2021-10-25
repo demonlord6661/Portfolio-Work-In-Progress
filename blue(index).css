@@ -39,6 +39,7 @@ body {
   width: 100%;
   background-color: aquamarine;
   overflow: auto;
+  border: 3px solid plum;
 }
 
 .navbar a {
@@ -78,6 +79,12 @@ body {
   width: 40%;
 }
 
+.imageR {
+  display: block;
+  width: 33rem;
+  height: auto;
+  float: right;
+}
 .image {
   display: block;
   width: 33rem;
@@ -113,4 +120,7 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.drag{
+  float: right;
 }
