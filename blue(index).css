@@ -39,6 +39,7 @@ body {
   width: 100%;
   background-color: aquamarine;
   overflow: auto;
+  border: 3px solid plum;
 }
 
 .navbar a {
@@ -84,6 +85,13 @@ body {
   height: auto;
 }
 
+.imageR{
+  display: block;
+  width: 30rem;
+  height: auto;
+  float: right;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -113,4 +121,32 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.drag{
+  float: right;
+  width: 20%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active4 {
+  border-bottom: 3px solid red;
 }
