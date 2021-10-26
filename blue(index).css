@@ -79,6 +79,12 @@ body {
   width: 40%;
 }
 
+.imageR {
+  display: block;
+  width: 33rem;
+  height: auto;
+  float: right;
+}
 .image {
   display: block;
   width: 33rem;
