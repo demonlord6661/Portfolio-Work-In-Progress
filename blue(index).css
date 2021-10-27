@@ -37,7 +37,7 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: aquamarine;
+  background-color: plum;
   overflow: auto;
   border: 3px solid plum;
 }
@@ -60,7 +60,7 @@ body {
   background-color: blueviolet;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .navbar a {
     float: none;
     display: block;
@@ -73,6 +73,7 @@ body {
   display: inline-block;
   height: 10px;
   position: absolute;
+  font-size: 2vw;
 }
 .container {
   position: relative;
@@ -93,7 +94,7 @@ body {
 
 .imageR{
   display: block;
-  width: 30rem;
+  width: 40%;
   height: auto;
   float: right;
 }
@@ -111,6 +112,7 @@ body {
   width: 35rem;
   height: 5rem;
   background-color: lightskyblue;
+  border: 3px solid plum;
 }
 
 .container:hover .overlay {
@@ -131,6 +133,7 @@ body {
 .drag{
   float: right;
   width: 20%;
+  font-size: 2vw;
 }
 
 .topnav {
