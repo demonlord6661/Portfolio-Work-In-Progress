@@ -25,7 +25,7 @@ a {
   color: black;
   display: inline-block;
   height: 10px;
-  position: absolute;
+  position: relative;
 }
 
 * {
@@ -72,7 +72,7 @@ body {
   color: purple;
   display: inline-block;
   height: 10px;
-  position: absolute;
+  position: relative;
   font-size: 2vw;
 }
 .container {
@@ -92,7 +92,7 @@ body {
   height: auto;
 }
 
-.imageR{
+.imageR {
   display: block;
   width: 40%;
   height: auto;
@@ -108,7 +108,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.5s ease;
+  transition: 1s ease;
   width: 35rem;
   height: 5rem;
   background-color: lightskyblue;
@@ -122,7 +122,7 @@ body {
 .text {
   color: purple;
   font-size: 20px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -130,32 +130,17 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.drag{
+.drag {
   float: right;
   width: 20%;
   font-size: 2vw;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #f1f1f1;
+.table,
+th {
+  border: 1px solid black;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}
-
-.topnav a:hover {
-  border-bottom: 3px solid red;
-}
-
-.topnav a.active4 {
-  border-bottom: 3px solid red;
+.sell {
+  width: 100%;
 }
