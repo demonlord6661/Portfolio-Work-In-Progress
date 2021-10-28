@@ -138,9 +138,12 @@ body {
 
 .table,
 th {
-  border: 1px solid black;
+  border: 1px solid purple;
 }
 
 .sell {
+  width: 30%;
+}
+.lamb{
   width: 100%;
 }
