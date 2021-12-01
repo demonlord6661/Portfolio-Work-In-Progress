@@ -61,6 +61,7 @@ body {
 
 .navbar a.active {
   background-color: blueviolet;
+  width: 70%;
 }
 
 @media screen and (max-width: 48rem) {
@@ -139,17 +140,15 @@ body {
   font-size: 2vw;
 }
 
-.table,
-th {
-  border: 1px solid purple;
-}
-/* th {
-  width: 100%;
-} */
-
-.sell {
-  width: 5rem;
+.th {
+  border: 0.4rem solid black;
 }
 .lamb {
-  width: 100%;
+  width: 80%;
+}
+.somber a{
+  width: 120%;
+}
+.embar {
+  width: 90%;
 }
