@@ -28,7 +28,13 @@ a {
   color: black;
   display: inline-block;
   height: 10px;
-  position: relative;
+  position: absolute;
+}
+.slice2{
+  margin-bottom: 3rem;
+  margin-top: 15rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
 
 * {
@@ -138,17 +144,59 @@ body {
   float: right;
   width: 20%;
   font-size: 2vw;
+  color: purple;
 }
 
 .th {
   border: 0.4rem solid black;
 }
 .lamb {
-  width: 80%;
+  width: 100%;
+}
+.somber td{
+  width: auto;
 }
 .somber a{
-  width: 120%;
+  width: 100%;
 }
 .embar {
   width: 90%;
+}
+.salsa{
+  border-style: solid;
+  border-color: gold;
+}
+.salsa2{
+  border-style: solid;
+  border-color: gold;
+}
+
+/*everthing under this is a universal @media that will be used in every part of the wedsite*/
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {height: 0;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {height: 0;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {height: 0;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {height: 0;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example{height: 0;}
 }

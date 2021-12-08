@@ -1,5 +1,5 @@
 .samm{
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: blueviolet;
     margin: 0;
 }
@@ -17,4 +17,49 @@
     font-size: 0.9rem;
     margin-top: 0;
     margin-bottom: 0%;
+}
+.trains{
+    margin-top: 4%;
+}
+.rezal{
+    font-size: 1.5rem;
+    background-color: aquamarine;
+}
+.saz34{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+.saz35{
+    position: relative;
+    top: 0;
+    left: 3rem;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+}
+.saz40{
+    position: relative;
+    top: 0;
+    left: 35rem;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+.alpha {
+    padding: 1%;
+    height: 15rem;
+    width: 17rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
 }

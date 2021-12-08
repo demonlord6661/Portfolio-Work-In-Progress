@@ -1,5 +1,5 @@
 .samm{
-    font-size: 2rem;
+    font-size: 1rem;
     color: blueviolet;
     margin: 0;
 }
@@ -19,28 +19,104 @@
     margin-bottom: 0%;
 }
 .saz24{
-    padding-left: 20rem;
+    padding-left: 23rem;
+    padding-top: 7rem;
 }
-.saz25{
-    padding-left: 1rem;
-}
+
 .saz23{
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .saz22{
+    padding-left: 1rem;
     padding-bottom: 6rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.saz29{
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+    display: block;
+    margin-left: 4rem;
+    margin-right: auto;
 }
 .saz21{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
+    position: absolute;
+    padding-top: 0.2rem;
+}
+
+.saz26{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+.saz28{
     position: relative;
-    padding-top: 3rem;
+    top: 0;
+    left: 3rem;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+}
+.saz32{
+    position: relative;
+    top: 0;
+    left: 35rem;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+.saz31{
+    right: 5rem;
 }
 
 .outset {
     border-style: outset;
-    border-left: 5rem;
-    border-width: 0.2rem;
-    border-right: 5rem;
+    border-left: 4rem;
+    border-width: 0.4rem;
+    border-right: 10rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+    border-color: aquamarine;
+    margin-left: 27rem;
+}
+.rezal{
+    font-size: 1.5rem;
+    background-color: aquamarine;
+}
+/*everthing under this is a universal @media that will be used in every part of the wedsite*/
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {height: 0;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {height: 0;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {height: 0;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {height: 0;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example{height: 0;}
 }
