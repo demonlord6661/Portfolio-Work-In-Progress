@@ -21,20 +21,19 @@ a {
   display: grid;
   padding: 0;
   background-color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .slice {
-  font-size: 100px;
+  font-size: 6rem;
   color: black;
   display: inline-block;
-  height: 10px;
-  position: absolute;
+  height: 3rem;
+  margin-left: 25rem;
 }
 .slice2{
   margin-bottom: 3rem;
-  margin-top: 15rem;
   margin-right: 10rem;
-  margin-left: 10rem;
+  margin-left: 30rem;
 }
 
 * {
@@ -81,11 +80,11 @@ body {
 .cured {
   color: purple;
   display: inline-block;
-  height: 10px;
+  height: 10rem;
   position: relative;
   font-size: 2vw;
 }
-.container {
+.contain {
   position: relative;
   width: 40%;
 }
@@ -100,6 +99,7 @@ body {
   display: block;
   width: 33rem;
   height: auto;
+  opacity: 5rem;
 }
 
 .imageR {
@@ -125,7 +125,7 @@ body {
   border: 3px solid plum;
 }
 
-.container:hover .overlay {
+.contain:hover .overlay {
   opacity: 1;
 }
 
@@ -165,10 +165,12 @@ body {
 .salsa{
   border-style: solid;
   border-color: gold;
+  background-color: salmon;
 }
 .salsa2{
   border-style: solid;
   border-color: gold;
+  background-color: salmon;
 }
 
 /*everthing under this is a universal @media that will be used in every part of the wedsite*/

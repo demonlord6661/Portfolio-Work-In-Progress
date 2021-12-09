@@ -1,31 +1,40 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bor{
+    border-style: solid;
+    border-color: crimson;
+    border-width: 2rem;
+    background-color: black;
+}
+.slice3{
+    margin-left: 21rem;
+    margin-top: 5rem;
 }
 
-body {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: grey;
+/*everthing under this is a universal @media that will be used in every part of the wedsite*/
+.example {
+  padding: 20px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {height: 0;}
 }
 
-.container {
-    width: 800px;
-    max-width: 80%;
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px 2px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {height: 0;}
 }
 
-.btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin-top: 20px;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {height: 0;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {height: 0;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example{height: 0;}
 }
