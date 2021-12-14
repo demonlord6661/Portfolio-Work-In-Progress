@@ -32,8 +32,7 @@
     margin-right: 38rem;
 }
 .fam{
-    margin-top: 10rem;
-    margin-left: 5rem;
+    margin-left: 10rem;
 }
 .savo{
     font-size: 1.5rem;
@@ -45,4 +44,8 @@
     bottom: 0;
     right: 0;
     width: 60%;
+}
+.jello{
+    color: black;
+    margin-left: 10rem;
 }
