@@ -14,6 +14,9 @@ a {
   float: left;
 }
 
+.aggerr{
+  margin-left: 10rem;
+}
 .salad {
   text-align: center;
 }
@@ -35,6 +38,12 @@ a {
   margin-right: 10rem;
   margin-left: 30rem;
 }
+.slice3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
 
 * {
   box-sizing: border-box;
@@ -49,7 +58,6 @@ body {
   overflow: auto;
   border: 3px solid plum;
 }
-
 .navbar a {
   float: left;
   padding: 12px;

@@ -3,10 +3,27 @@
     border-color: black;
     border-width: 0.2rem;
     font-size: 0.99rem;
+    margin-left: 30rem;
+    margin-right: 26rem;
+    background-color: blueviolet;
+}
+.gal2{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.2rem;
+    font-size: 0.99rem;
+    margin-left: 30rem;
+    margin-right: 25rem;
+    background-color: blueviolet;
 }
 .mal{
     font-size: 1rem;
+    padding-left: 5rem;
 }
 .grif{
     margin-top: 2rem;
+}
+.mallr{
+    height: 20rem;
+    width: 20rem;
 }

@@ -1,51 +1,54 @@
-.samm{
-    font-size: 1.6rem;
-    color: blueviolet;
-    margin: 0;
+.samm {
+  font-size: 1.6rem;
+  color: blueviolet;
+  margin: 0;
 }
-.sally{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.sally {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 45rem;
   height: 5rem;
   background-color: lightskyblue;
   border: 3px solid black;
 }
-.sazz{
-    font-size: 0.9rem;
-    margin-top: 0;
-    margin-bottom: 0%;
+.sazz {
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0%;
 }
-.sazz2{
-    font-size: 0.9rem;
-    margin-left: 38rem;
+.sazz2 {
+  font-size: 0.9rem;
+  margin-left: 38rem;
 }
-.sazz3{
-    font-size: 0.9rem;
-    margin-top: 0;
-    margin-bottom: 0%;
+.sazz3 {
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0%;
 }
-.sazz4{
-    font-size: 0.9rem;
-    margin-right: 38rem;
+.sazz4 {
+  font-size: 0.9rem;
+  margin-right: 38rem;
 }
-.fam{
-    margin-left: 10rem;
+.solid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.savo{
-    font-size: 1.5rem;
-    background-color: aquamarine;
+.savo {
+  font-size: 1.5rem;
+  background-color: aquamarine;
 }
-.saz34{
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 60%;
+.saz34 {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 60%;
 }
-.jello{
-    color: black;
-    margin-left: 10rem;
+.jello {
+  color: black;
+  margin-left: 10rem;
 }
